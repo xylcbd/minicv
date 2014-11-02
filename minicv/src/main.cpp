@@ -1,7 +1,9 @@
-#include "color_convert.h"
+extern void threshold_sample();
+extern void color_convert_sample();
 
 int main(int, char*[])
 {
-	rgb24ToGray(nullptr, 0, 0, nullptr);
+	//threshold_sample();
+	color_convert_sample();
 	return 0;
 }

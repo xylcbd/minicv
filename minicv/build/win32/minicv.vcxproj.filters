@@ -13,24 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\global">
+      <UniqueIdentifier>{42cf4c9a-e212-4f41-b77a-66e3022331c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\module">
+      <UniqueIdentifier>{8187d030-e901-402c-83d9-fa460e2c432d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sample">
+      <UniqueIdentifier>{b89fbe8e-625e-4c00-b93b-31be6c93d442}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\src\color_convert.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\platform_info.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="..\..\src\common_define.h">
+      <Filter>Source Files\global</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\common_tools.h">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform_info.h">
+      <Filter>Source Files\global</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\color_convert.h">
+      <Filter>Source Files\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\threshold.h">
+      <Filter>Source Files\module</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\color_convert.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\global</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color_convert.cpp">
+      <Filter>Source Files\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\threshold.cpp">
+      <Filter>Source Files\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color_convert_sample.cpp">
+      <Filter>Source Files\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\threshold_sample.cpp">
+      <Filter>Source Files\sample</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

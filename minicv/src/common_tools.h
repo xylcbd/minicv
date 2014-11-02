@@ -7,6 +7,11 @@ template <class Lambda> class AtScopeExit {
 public:
 	AtScopeExit(Lambda& action) : m_lambda(action) {}
 	~AtScopeExit() { m_lambda(); }
+public:
+	AtScopeExit(const AtScopeExit& other) = delete;
+	AtScopeExit(AtScopeExit&& other) = delete;
+	AtScopeExit& operator=(const AtScopeExit& other) = delete;
+	AtScopeExit& operator=(AtScopeExit&& other) = delete;
 };
 #define TOKEN_PASTEx(x, y) x ## y
 #define TOKEN_PASTE(x, y) TOKEN_PASTEx(x, y)
