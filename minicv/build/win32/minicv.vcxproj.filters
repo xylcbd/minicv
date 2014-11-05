@@ -39,6 +39,9 @@
     <ClInclude Include="..\..\src\threshold.h">
       <Filter>Source Files\module</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\resize.h">
+      <Filter>Source Files\module</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
@@ -54,6 +57,12 @@
       <Filter>Source Files\sample</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\threshold_sample.cpp">
+      <Filter>Source Files\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resize.cpp">
+      <Filter>Source Files\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resize_sample.cpp">
       <Filter>Source Files\sample</Filter>
     </ClCompile>
   </ItemGroup>

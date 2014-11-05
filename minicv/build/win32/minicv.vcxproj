@@ -82,12 +82,15 @@
     <ClInclude Include="..\..\src\common_define.h" />
     <ClInclude Include="..\..\src\common_tools.h" />
     <ClInclude Include="..\..\src\platform_info.h" />
+    <ClInclude Include="..\..\src\resize.h" />
     <ClInclude Include="..\..\src\threshold.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\color_convert.cpp" />
     <ClCompile Include="..\..\src\color_convert_sample.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\resize.cpp" />
+    <ClCompile Include="..\..\src\resize_sample.cpp" />
     <ClCompile Include="..\..\src\threshold.cpp" />
     <ClCompile Include="..\..\src\threshold_sample.cpp" />
   </ItemGroup>
